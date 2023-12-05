@@ -1,0 +1,167 @@
+
+* {
+    margin: 0px auto;
+}
+
+.top {
+   display: flex;
+   justify-content: center;
+   margin-top: 140px;
+
+
+}
+
+.top > div {
+    margin: 0 15px;
+}
+
+.rect {
+    width: 381px;
+    height: 321px;
+
+    
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+   
+
+}
+
+img {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.top h1 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+    margin-bottom: 17px;
+    margin-left: 30px;
+    }
+
+.top p {
+    margin: 30px
+}
+
+
+.body-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-cards h1 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 92px;
+    margin-bottom: 19px;
+   
+    
+}
+
+
+
+.body-cards p {
+    margin: 0 auto;
+    margin-bottom: 53px;
+}
+
+p {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    margin-bottom: 25px;
+    margin-right: 61px;
+   
+    
+
+}
+
+.top a {
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */
+}
+
+.body-cards {
+   
+    width: 1881px;
+    height: 898px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container-cards {
+    
+    display: flex;
+    justify-content: center;
+
+
+    
+
+}
+.cards {
+   
+    margin-top: 70px;
+    width: 370px;
+    height: 549px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+    margin-right: 30px;
+    
+}
+
+.cards img {
+    width: 385px;
+    height: 289px;
+    flex-shrink: 0;
+}
+
+.cards h1 {
+    margin-bottom: 22px;
+}
+
+.cards p {
+    width: 310px;
+    height: 63px;
+    flex-shrink: 0;
+    margin-bottom: 54px;
+}
+
+button{
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    color: #FFFFFF;
+    border-color: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 89, 34, 0.42);
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin-bottom: 50px;
+}
